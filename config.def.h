@@ -6,7 +6,11 @@ static const unsigned int gappx     = 6;       /* gaps between windows */
 static const unsigned int snap      = 36;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = {"hack:size=10"};
+static const char *fonts[]          = {
+    "hack:size=10:antialias=true",
+    "IBM Plex Mono:size=10:antialias=true:autohint=true",
+    "siji:size=12:antialias=true:autohint=true"
+};
 static const char dmenufont[]       = "hack:size=10";
 static const char col_gray1[]       = "#3b4252";
 static const char col_gray2[]       = "#b48ead";
@@ -17,6 +21,7 @@ static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_cyan, col_gray1, col_gray2 },
 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+	[SchemeTitle]  = { col_gray4, col_cyan,  col_cyan  },
 };
 
 /* tagging */
