@@ -12,16 +12,16 @@ static const char *fonts[]          = {
     "siji:size=12:antialias=true:autohint=true"
 };
 static const char dmenufont[]       = "hack:size=10";
-static const char col_gray1[]       = "#3b4252";
+static const char col_gray1[]       = "#2e3440";
 static const char col_gray2[]       = "#b48ead";
-static const char col_gray3[]       = "#b483ad";
-static const char col_gray4[]       = "#3b4252";
+static const char col_gray3[]       = "#5e81ac";
+static const char col_gray4[]       = "#2e3440";
 static const char col_cyan[]        = "#8fbcbb";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_cyan, col_gray1, col_gray2 },
 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
-	[SchemeTitle]  = { col_gray4, col_cyan,  col_cyan  },
+	[SchemeTitle]  = { col_gray3, col_gray4,  col_gray4  },
 };
 
 /* tagging */
