@@ -14,7 +14,7 @@ static const char *fonts[]          = {
 static const char dmenufont[]       = "hack:size=10";
 static const char col_gray1[]       = "#2e3440";
 static const char col_gray2[]       = "#b48ead";
-static const char col_gray3[]       = "#5e81ac";
+static const char col_gray3[]       = "#eceff4";
 static const char col_gray4[]       = "#2e3440";
 static const char col_cyan[]        = "#8fbcbb";
 static const char *colors[][3]      = {
