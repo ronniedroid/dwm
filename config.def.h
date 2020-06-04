@@ -12,11 +12,11 @@ static const char *fonts[]          = {
     "siji:size=12:antialias=true:autohint=true"
 };
 static const char dmenufont[]       = "hack:size=10";
-static const char col_gray1[]       = "#2e3440";
-static const char col_gray2[]       = "#b48ead";
-static const char col_gray3[]       = "#eceff4";
-static const char col_gray4[]       = "#2e3440";
-static const char col_cyan[]        = "#8fbcbb";
+static const char col_gray1[]       = "#282c34";
+static const char col_gray2[]       = "#c678dd";
+static const char col_gray3[]       = "#abb2bf";
+static const char col_gray4[]       = "#282c34";
+static const char col_cyan[]        = "#56b6c2";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_cyan, col_gray1, col_gray2 },
@@ -36,7 +36,9 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Emacs",     NULL,       NULL,       1<<2,            0,           -1 },
-	{ "firefox",   NULL,       NULL,       1<<1,            0,           -1 },
+	{ "Firefox",   NULL,       NULL,       1<<1,            0,           -1 },
+	{ "Thunderbird",   NULL,       NULL,       1<<4,            0,           -1 },
+	{ "VirtualBox Machine",   NULL,       NULL,       1<<8,            0,           -1 },
   { "Sxiv",      NULL,       NULL,          0,            1,           -1 },
 };
 
